@@ -49,9 +49,13 @@ spine <- gList(
 	spine_icons
 )
 
-xmp <- xmp(creator = "Ben Hamilton", date_created = "2026", spdx_id = "CC-BY-NC-SA-4.0",
+# No `date_created` so that {xmpdf} doesn't generate a copyright line
+xmp <- xmp(creator = "Ben Hamilton", spdx_id = "CC-BY-NC-SA-4.0",
+           attribution_url = "https://github.com/bhamiltoncx/smallboxgamejackets",
            title = "Crime Scene Tamperer Small Box Game Jacket")
 credits <- r"(
+	* Jacket source: <https://github.com/bhamiltoncx/smallboxgamejackets>
+
 	* *Crime Scene Tamperer* is published by Greater Than Games, LLC
 
 	  + Designed by Christopher Badell, Christopher Burton, Matt Chapman, Mike Chapman, and Matthew Kroll

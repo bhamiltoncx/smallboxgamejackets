@@ -10,7 +10,7 @@ A 4"x6" photo box jacket for [Crime Scene Tamperer](https://greaterthan.games/pr
 
 ## License
 
-© 2026 Ben Hamilton. This jacket is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/) (see [LICENSE.txt](LICENSE.txt)).
+This jacket by Ben Hamilton is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/) (see [LICENSE.txt](LICENSE.txt)).
 
 The front and back cover artwork is used with permission by Greater Than Games, who granted permission on 2026-09-30 to distribute this jacket under CC BY-NC-SA 4.0.
 
