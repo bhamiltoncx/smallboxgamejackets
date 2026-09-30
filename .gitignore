@@ -1,0 +1,6 @@
+# Source artwork is not redistributed
+*/source/
+
+.Rhistory
+.DS_Store
+Rplots.pdf
