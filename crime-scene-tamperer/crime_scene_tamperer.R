@@ -12,6 +12,19 @@ library("sbgjackets")
 library("xmpdf")
 check_sbgjackets_dependencies()
 
+# Set URLs in a monospace font: Carlito's "tt"/"ti" ligatures don't copy/paste correctly
+# so e.g. "https://" became "h�ps://".  Also make the license URL a link (like the
+# other credits URLs) so it gets the same style.
+local({
+	sbgjackets_style <- sbgjackets:::sbgjackets_style
+	assignInNamespace("sbgjackets_style", function(...) {
+		marquee::modify_style(sbgjackets_style(...), "a", family = "mono", size = marquee::relative(0.85))
+	}, ns = "sbgjackets")
+	assignInNamespace("protect_url_wrap", function(x) {
+		gsub("(https?://[^[:space:]]+)", "<\\1>", x)
+	}, ns = "sbgjackets")
+})
+
 output <- "SBG_Jacket_-_Crime_Scene_Tamperer.pdf"
 dpi <- 300
 
